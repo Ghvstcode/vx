@@ -10,6 +10,6 @@ deploy:
   provider: surge
   project: ./dist/
   domain: black-request.surge.sh/
-  cleanup: false
+  skip_cleanup: true
   on:
     branch: main
