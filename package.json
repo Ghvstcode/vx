@@ -42,7 +42,7 @@
   ],
   "husky": {
     "hooks": {
-      "pre-push": "npm run build && surge --project ./build --domain black-request.surge.sh"
+      "pre-push": "npm run build && surge --project ./dist --domain black-request.surge.sh"
     }
   }
 }
